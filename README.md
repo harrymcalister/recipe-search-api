@@ -1,11 +1,3 @@
-### An API hosted by Vercel which acts as a proxy to the [Tasty API](https://rapidapi.com/apidojo/api/tasty)
-
-###### Endpoint: 
-
-###### The API was made to serve the [Recipe Search App](https://github.com/harrymcalister/recipe-search-android-app) which can be used to search for recipes using a given query. Using this API as a proxy improves security by keeping the API key private.
-
-###### API is hosted by Vercel using the free tier, which is suitable for the intended usage amount.  Upstash and a Redis database were also used as part of the API for rate limiting the edge function.
-
 # Recipe Search API
 
 The Recipe Search API is a simple serverless API built on Vercel that allows users to search for recipes using the Tasty API. The main purpose of creating this API is to improve security by keeping the API key private and to provide a suitable rate limiting mechanism for the intended usage amount. The API is hosted on Vercel's free tier, and it utilizes Upstash and a Redis database for rate limiting the edge function.
