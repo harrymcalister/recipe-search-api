@@ -10,7 +10,7 @@ const headers = {
   "X-RapidAPI-Key": process.env.API_KEY,
 };
 
-const WINDOW_MS = 10 * 1000; // 10 seconds
+const WINDOW_MS = 1 * 1000; // 10 seconds
 const MAX_REQUESTS = 5;
 
 const rateLimiter = async (req, res, next) => {
